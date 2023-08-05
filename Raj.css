@@ -1,0 +1,290 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:#101011;
+}
+
+section{
+    display: block;
+}
+div{
+    display: block;
+}
+
+header{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    
+    margin-bottom: 2%;
+    background-color:black;
+    height:25vh;
+    color: white;
+}
+.name{
+    padding-left: 120px;
+    padding-right: 50px;
+    font-size: 2rem;
+    transition: all .50s;
+}
+.name:hover{
+    font-style: oblique;
+    font-size: 2.5rem;
+    color: green;
+}
+.navigation{
+    display: block;
+}
+ul{
+    list-style-type: none;
+    display: block;
+    margin-block-start: 1.2rem;
+    margin-block-end: 1 rem;
+    margin-inline-start: 0%;
+    margin-inline-end: 0%;
+   
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.navigation ul li{
+    display: inline;
+    padding-right: 40px;
+    color: whitesmoke;
+    transition: all 1s;
+}
+.navigation ul li:hover{
+    font-style: italic;
+    font-family: sans-serif;
+    color: firebrick;
+    font-size: 30px;
+}
+
+
+.box1{
+    display: flex;
+    flex-direction: row;
+   margin-bottom: 3%;
+}
+.container{
+    display: flex;
+    flex-direction: column; 
+    padding-right: 4%;
+    padding-left: 10%;
+    padding-top: 3%;
+    font-size: 80px;
+    font-family:serif cursive;
+    margin-top: 1%;
+    color: white;
+}
+img{
+    float:right;
+    padding-top: 50px;  
+    width :60%;
+    height:80%;
+    padding-right: 15%; 
+}
+
+
+
+
+h1{
+    text-align: center;
+    margin: 50px;
+    font-size: 35px;
+    color: whitesmoke;
+}
+.me{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 30px;
+    font-family:serif;
+    color: white;
+}
+
+.educontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btech{
+    padding: 50px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .40s;
+    width: 25%;
+    margin-left: 100px;
+
+    color: white;
+    background-color:black;
+}
+.btech p{
+    display: block;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-block-start: 1.2rem;
+    margin-block-end: 1.2rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.intermediate{
+    padding: 50px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .40s;
+    width: 25%;
+    color: white;
+    background-color: black;
+}
+.intermediate p{
+    display: block;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-block-start: 1.2rem;
+    margin-block-end: 1.2rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.ssc{
+    padding: 50px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .40s;
+    width: 25%;
+    color:white;
+    margin-right: 100px;
+    background-color: black;
+}
+.ssc p{
+    display: block;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-block-start: 1.2rem;
+    margin-block-end: 1.2rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.btech:hover{
+    box-shadow: 1px 1px 5px 5px red;
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(200, 183, 183);
+    scroll-behavior: smooth;
+}
+
+.intermediate:hover{
+    box-shadow: 1px 1px 5px 5px red;
+    background-color: black;
+    font-family: serif;
+    font-size: 30px;
+    color: rgb(200, 183, 183);
+    scroll-behavior: smooth;
+}
+.ssc:hover{
+    box-shadow: 1px 1px 5px 5px red;
+    background-color: black;
+    font-family: serif;
+    font-size: 30px;
+    color: rgb(200, 183, 183);
+    scroll-behavior: smooth;
+}
+
+.beproj{
+    padding: 30px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .40s;
+    width : 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 22px;
+    margin-left: 35%;
+}
+.beproj:hover{
+    box-shadow: 1px 1px 5px 5px brown;
+    background-color: black;
+    font-family: sans-serif;
+    color: rga(200, 1180, 180);
+    scroll-behavior: smooth;
+    font-size: 28px;
+}
+
+
+.beprojminor{
+    padding: 30px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .40s;
+    width : 22%;
+    background-color: black;
+    color: white;
+    margin-right: 250px;
+    font-size: 22px;
+}
+.beprojminor:hover{
+    box-shadow: 1px 1px 5px 5px brown;
+    background-color: black;
+    font-family: sans-serif;
+    color: rga(200, 180, 180);
+    scroll-behavior: smooth;
+    font-size: 28px;
+
+}
+
+.contactcontainer{
+   text-align: center;
+   padding: 40px 30px;
+   border-radius: 10px;
+   background-color: black;
+   color: white;
+   width:30%;
+   margin-left: 35%;
+   
+   
+}
+.contactcontainer p:hover{
+    font-style: italic;
+    font-size: 20px;
+    color: chocolate;
+}
+
+.contactcontainer p{
+    cursor: pointer;
+    margin-block-start: .5rem;
+    margin-block-end: .5rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    transition: all .50s;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+i{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(200, 180, 180);
+}
+.icons i:hover{
+    font-size: 60px;
+    color: chocolate;
+}
+
