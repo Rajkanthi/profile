@@ -1,4 +1,20 @@
-
+.some-element{
+    width: 300px;
+    margin: 20px;
+}
+@media(max-width: 760){
+    .some-element{
+        width: 100%;
+        margin: 10px;
+    }
+}
+@media (max-width: 480px) {
+    /* Add styles here that apply to screens with a maximum width of 768px (typical tablet and mobile sizes) */
+    .some-element{
+        width:90%;
+        margin: 5px;
+    }
+}
 *{
     margin: 0%;
     padding: 0%;
