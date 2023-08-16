@@ -1,27 +1,16 @@
-.some-element{
-    width: 300px;
-    margin: 20px;
-}
-@media(max-width : 768px){
-    .some-element{
-        width: 100%;
-        margin: 10px;
-    }
-}
-@media(max-width: 480px){
-    .some-element{
-        width: 90%;
-        margin:5px;
-    }
+
+@media screen and (max-width:420px)
+{
+    
+body{
+    background-color:#101011;
 }
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-body{
-    background-color:#101011;
-}
+
 
 section{
     display: block;
@@ -303,3 +292,4 @@ i{
     color: chocolate;
 }
 
+}
