@@ -1,7 +1,4 @@
 
-@media screen and (max-width:420px)
-{
-    
 body{
     background-color:#101011;
 }
@@ -14,25 +11,29 @@ body{
 
 section{
     display: block;
+    overflow: hidden;
 }
 div{
     display: block;
 }
 
 header{
-    font-size: 2rem;
+    font-size: 2.2rem;
     display: flex;
-    align-items: center;
-    
-    margin-bottom: 2%;
+    align-items: center; 
+    margin-bottom: 2px;
     background-color:black;
-    height:25vh;
+    height:22vh;
     color: white;
+    overflow: hidden;
+    overflow-wrap: break-word;
 }
 .name{
-    padding-left: 120px;
-    padding-right: 50px;
-    font-size: 2rem;
+    width: 45%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 2.2rem;
     transition: all .50s;
 }
 .name:hover{
@@ -46,6 +47,7 @@ header{
 ul{
     list-style-type: none;
     display: block;
+    float: right;
     margin-block-start: 1.2rem;
     margin-block-end: 1 rem;
     margin-inline-start: 0%;
@@ -55,43 +57,56 @@ ul{
 a{
     text-decoration: none;
     cursor: pointer;
+  
 }
 .navigation ul li{
     display: inline;
-    padding-right: 40px;
+    padding: 18px;
     color: whitesmoke;
     transition: all 1s;
+    
 }
 .navigation ul li:hover{
     font-style: italic;
     font-family: sans-serif;
     color: firebrick;
     font-size: 30px;
+    
 }
 
 
 .box1{
     display: flex;
     flex-direction: row;
-   margin-bottom: 3%;
+    height: 520px;
+    overflow: hidden;
+    
 }
 .container{
     display: flex;
     flex-direction: column; 
-    padding-right: 4%;
-    padding-left: 10%;
-    padding-top: 3%;
-    font-size: 80px;
+    padding-right: 20px;
+    padding-left: 50px;
+    font-size: 60px;
     font-family:serif cursive;
-    margin-top: 1%;
+    margin-top: 5%;
     color: white;
+    width: 45%;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+.profileimg{
+    float: right;
+    width: 60%;
+    padding-right: 70px;
 }
 img{
-    float:right;
-    padding-top: 50px;  
-    width :60%;
-    height:80%;
-    padding-right: 15%; 
+    float: right;
+    padding-top: 10px;  
+    width: 80%;
+    height: 100%;
+    padding-left: 10px;    
+    
 }
 
 
@@ -104,28 +119,33 @@ h1{
     color: whitesmoke;
 }
 .me{
-    padding-top: 2%;
+    padding-top: 2px;
     text-align: center;
     font-size: 30px;
     font-family:serif;
     color: white;
+    overflow: hidden;
+    overflow-wrap: break-word;
 }
 
 .educontainer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow: hidden;
 }
 .btech{
-    padding: 50px 30px;
+    padding: 50px 20px;
+    padding-bottom: 20px;
     border-radius: 10px;
     cursor: pointer;
     transition: all .40s;
-    width: 25%;
-    margin-left: 100px;
-
+    width: 27%;
+    height: fit-content;
+    margin-left: 50px;
     color: white;
     background-color:black;
+    overflow-wrap: break-word;
 }
 .btech p{
     display: block;
@@ -139,13 +159,16 @@ h1{
 }
 
 .intermediate{
-    padding: 50px 30px;
+    padding: 50px 20px;
     border-radius: 10px;
     cursor: pointer;
     transition: all .40s;
-    width: 25%;
+    width: 27%;
+    height: fit-content;
     color: white;
     background-color: black;
+  
+    overflow-wrap: break-word;
 }
 .intermediate p{
     display: block;
@@ -158,14 +181,16 @@ h1{
 }
 
 .ssc{
-    padding: 50px 30px;
+    padding: 50px 20px;
     border-radius: 10px;
     cursor: pointer;
     transition: all .40s;
-    width: 25%;
+    width: 27%;
+    height: fit-content;
     color:white;
-    margin-right: 100px;
+    margin-right: 50px;
     background-color: black;
+    overflow-wrap: break-word;
 }
 .ssc p{
     display: block;
@@ -203,22 +228,34 @@ h1{
     scroll-behavior: smooth;
 }
 
+
+.projcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-left: 30%;
+    width: 40%;
+    overflow: hidden;
+}
+
 .beproj{
-    padding: 30px 50px;
+    padding: 40px 40px;
     border-radius: 10px;
     cursor: pointer;
     transition: all .40s;
-    width : 30%;
-    display: flex;
+    width : 90%;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    text-align: center;
     background-color: black;
     color: white;
-    letter-spacing: 3px;
-    font-size: 22px;
-    margin-left: 35%;
+    letter-spacing: 2px;
+    overflow-wrap: break-word;  
+   
 }
+
 .beproj:hover{
     box-shadow: 1px 1px 5px 5px brown;
     background-color: black;
@@ -258,7 +295,10 @@ h1{
    color: white;
    width:30%;
    margin-left: 35%;
-   
+   overflow: hidden;
+   overflow-wrap: break-word;
+   margin-bottom: 100px;
+  
    
 }
 .contactcontainer p:hover{
@@ -290,6 +330,4 @@ i{
 .icons i:hover{
     font-size: 60px;
     color: chocolate;
-}
-
 }
