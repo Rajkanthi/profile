@@ -23,7 +23,7 @@ header{
     align-items: center; 
     margin-bottom: 2px;
     background-color:black;
-    height:22vh;
+    height:25vh;
     color: white;
     /* overflow: hidden;
     overflow-wrap: break-word; */
@@ -100,7 +100,7 @@ a{
 }
 .profileimg{ 
     padding-right: 20px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 img{
     padding-top: 10px; 
