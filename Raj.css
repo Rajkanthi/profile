@@ -87,25 +87,25 @@ a{
 .container{
     /* display: flex;
     flex-direction: column;  */
-    padding-right: 150px;
+    padding-right: 50px;
     padding-left: 50px;
     font-size: 60px;
     font-family:serif cursive;
     margin-top: 20px;
     color: white;
-    width: 750px;
+    width: 600px;
     height: 250px;
     /* overflow: hidden; */
     /* overflow-wrap: break-word; */
 }
 .profileimg{ 
-    padding-right: 50px;
+    padding-right: 20px;
+    margin-left: 20px;
 }
 img{
     padding-top: 10px; 
     height: 500px;
-    padding-left: 20%;    
-    
+    padding-left: 30px;    
 }
 
 
