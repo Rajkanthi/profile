@@ -24,7 +24,7 @@ header{
     margin-bottom: 2px;
     background-color:black;
     /* height:250px; */
-    padding:25px;
+    padding:20px;
     color: white;
     /* overflow: hidden;
     overflow-wrap: break-word; */
@@ -33,7 +33,7 @@ header{
 .name{
     width: 50%;
     text-align: center;
-    padding-left: 20px;
+    padding-left: 15px;
     padding-right: 10px;
     font-size: 2.0rem;
     transition: all .50s;
@@ -235,13 +235,19 @@ h1{
     scroll-behavior: smooth;
 }
 
+#project{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 
 .projcontainer{
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    margin-left: 28%;
-    width: 45%;
+    width: 420px;
     overflow: hidden;
 }
 
@@ -251,10 +257,10 @@ h1{
     cursor: pointer;
     transition: all .40s;
     width : 90%;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     text-align: center;
     background-color: black;
     color: white;
@@ -294,19 +300,27 @@ h1{
 
 }
 
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .contactcontainer{
    text-align: center;
-   padding: 20px 20px;
+   padding: 20px 10px;
    border-radius: 10px;
    background-color: black;
    color: white;
-   width:40%;
-   margin-left: 31%;
+   width:350px;
    overflow: hidden;
    font-size: 18px;
    overflow-wrap: break-word;
    margin-bottom: 100px;
-  
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
    
 }
 .contactcontainer p:hover{
