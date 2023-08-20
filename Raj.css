@@ -31,16 +31,16 @@ header{
     /* width: 1200px; */
 }
 .name{
-    width: 40%;
+    width: 50%;
     text-align: center;
     padding-left: 20px;
     padding-right: 10px;
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     transition: all .50s;
 }
 .name:hover{
     font-style: oblique;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: green;
 }
 .navigation{
@@ -71,7 +71,7 @@ a{
     font-style: italic;
     font-family: sans-serif;
     color: firebrick;
-    font-size: 30px;
+    font-size: 25px;
     
 }
 
@@ -121,7 +121,7 @@ h1{
 .me{
     padding-top: 2px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-family:serif;
     color: white;
     /* overflow: hidden;
